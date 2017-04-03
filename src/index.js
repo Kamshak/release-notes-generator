@@ -18,7 +18,7 @@ module.exports = function (pluginConfig, options, cb) {
 
   writerOpts.commitPartial = pkgOptions.commitPartial ? readRelative(pkgOptions.commitPartial) : readAbsolute('../templates/commit.hbs')
   writerOpts.headerPartial = pkgOptions.headerPartial ? readRelative(pkgOptions.headerPartial) : readAbsolute('../templates/header.hbs')
-  
+
   if (pkgOptions.mainTemplate) {
     writerOpts.mainTemplate = readRelative(pkgOptions.mainTemplate)
   }
