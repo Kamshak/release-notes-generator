@@ -1,5 +1,5 @@
 {
-  "name": "Kamshak/release-notes-generator",
+  "name": "@kamshak/release-notes-generator",
   "description": "Generates the release notes/changelog",
   "author": "Valentin Funk <funk.valentin@gmail.com>; Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
   "bugs": {
