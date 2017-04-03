@@ -45,7 +45,7 @@
     "url": "https://github.com/Kamshak/release-notes-generator.git"
   },
   "scripts": {
-    "prepublish": "build",
+    "prepublish": "npm run build",
     "build": "rimraf dist && mkdirp dist && babel src --out-dir dist",
     "build:tests": "rimraf .test && mkdirp .test && babel test --out-dir .test",
     "test": "npm run test:style",
