@@ -49,7 +49,7 @@
     "build:tests": "rimraf .test && mkdirp .test && babel test --out-dir .test",
     "test": "npm run test:style",
     "test:style": "standard",
-    "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post"
+    "semantic-release": "semantic-release pre && build && npm publish --access=public && semantic-release post"
   },
   "version": "0.0.0-development"
 }
